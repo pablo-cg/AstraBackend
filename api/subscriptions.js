@@ -39,9 +39,8 @@ router.post('/nueva', async (request, response) => {
 
 router.post('/respuesta', (request, response) =>{
     const data = request.body;
-    console.log(data);
 
-    response.status(200).send();
+    response.status(200).send(data);
 });
 
 module.exports = router;
