@@ -1,0 +1,29 @@
+{
+  "name": "AstraBackend",
+  "version": "1.0.0",
+  "description": "Backend para los pagos de AstraVita",
+  "main": "index.js",
+  "engines":{
+      "node": "14.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablo-cg/AstraBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablo-cg/AstraBackend/issues"
+  },
+  "homepage": "https://github.com/pablo-cg/AstraBackend#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^3.1.0"
+  }
+}
